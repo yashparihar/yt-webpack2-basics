@@ -1,0 +1,33 @@
+{
+  "name": "yt-webpack2-basics",
+  "version": "1.0.0",
+  "description": "webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack ./src/js/app.js --output ./dist/bundle.js --mode development",
+    "build": "webpack ./src/js/app.js --output ./dist/bundle.js  --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashparihar/yt-webpack2-basics.git"
+  },
+  "keywords": [
+    "webpack",
+    "basics",
+    "1"
+  ],
+  "author": "yash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yashparihar/yt-webpack2-basics/issues"
+  },
+  "homepage": "https://github.com/yashparihar/yt-webpack2-basics#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
